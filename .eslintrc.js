@@ -10,5 +10,9 @@ module.exports = {
         "browser": true,
         "node": true,
         "mocha": true,
-    }
+    },
+    "rules": {
+      "class-methods-use-this": "off",
+      "import/no-extraneous-dependencies": "off"
+    },
 };
