@@ -1,3 +1,7 @@
+import Bicycle from './bicycle';
+
 export default class DockingStation {
-  releaseBike() {}
+  releaseBike() {
+    return new Bicycle();
+  }
 }
