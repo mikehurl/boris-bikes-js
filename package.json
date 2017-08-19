@@ -4,7 +4,7 @@
   "description": "Recreation of the first week's challenge at Maker's Academy in JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --compilers js:babel-register"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/mikehurl/boris-bikes-js#readme",
   "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
     "chai": "^4.1.1",
     "eslint": "^4.5.0",
     "eslint-config-airbnb-base": "^11.3.1",
