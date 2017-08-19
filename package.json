@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mikehurl/boris-bikes-js#readme",
   "devDependencies": {
+    "eslint": "^4.5.0",
     "mocha": "^3.5.0"
   }
 }
