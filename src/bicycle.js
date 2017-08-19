@@ -1,3 +1,5 @@
 export default class Bicycle {
-  isWorking() {}
+  isWorking() {
+    return true;
+  }
 }

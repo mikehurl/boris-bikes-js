@@ -14,5 +14,11 @@ describe('Docking Station', () => {
       const bike = station.releaseBike();
       expect(bike).to.be.an.instanceOf(Bicycle);
     });
+
+    it('should release a working bike', () => {
+      const station = new DockingStation();
+      const bike = station.releaseBike();
+      expect(bike.isWorking()).to.be.true;
+    });
   });
 });
