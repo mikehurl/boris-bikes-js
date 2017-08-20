@@ -18,7 +18,7 @@ describe('Docking Station', () => {
     it('should release a working bike', () => {
       const station = new DockingStation();
       const bike = station.releaseBike();
-      expect(bike.isWorking()).to.be.true;
+      expect(bike.isWorking).to.equal(true);
     });
   });
 });

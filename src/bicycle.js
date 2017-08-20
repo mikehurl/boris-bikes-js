@@ -1,5 +1,5 @@
 export default class Bicycle {
-  isWorking() {
-    return true;
+  constructor() {
+    this.isWorking = true;
   }
 }
